@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f2e9e4;
+    color: #22223b;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #9a8c98;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e76f51;
+}
+
+h2 {
+    color: #c9ada7;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.love-meter, .our-journey {
+    margin: 20px 0;
+    padding: 15px;
+    background: #e9c46a;
+    border-radius: 8px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 70%;
+    height: 15px;
+    border-radius: 5px;
+    background: #f4a261;
+    outline: none;
+    opacity: 0.9;
+    transition: opacity .2s;
+    margin: 15px 0;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #e76f51;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #e76f51;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #6d6875;
+}
